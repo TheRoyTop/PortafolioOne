@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://TheRoyTop.github.io',
-  base: 'my-repo',
+  base: '/',
   integrations: [tailwind()]
 });
